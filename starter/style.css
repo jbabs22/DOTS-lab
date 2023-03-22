@@ -159,7 +159,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 4rem;
+  padding: 8rem;
   background-color: #111;
   text-align: center;
   z-index: 10;
@@ -237,12 +237,22 @@ a {
   text-align: center;
 }
 
-.level-two .ball:first-of-type {
+.level-two .ball:nth-of-type(1) {
   top: 35%;
   animation-delay: 1s;
 }
 
-.level-two .ball:last-of-type {
+.level-two .ball:nth-of-type(2) {
+  top: 45%;
+  animation-delay: 2s;
+}
+
+.level-two .ball:nth-of-type(3) {
+  top: 55%;
+  animation-delay: 1s;
+}
+
+.level-two .ball:nth-of-type(4) {
   top: 65%;
   animation-delay: 2s;
 }
